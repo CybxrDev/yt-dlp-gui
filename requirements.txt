@@ -1,0 +1,7 @@
+# Runtime dependencies. The UI uses Tkinter from Python's standard library.
+#
+# yt-dlp with its recommended extras ("default"): yt-dlp-ejs (YouTube challenge solver
+# scripts), certifi (HTTPS certificates), mutagen (thumbnail embedding for some audio
+# formats), plus optional speed/compatibility helpers. This matches what the official
+# yt-dlp executables include.
+yt-dlp[default]

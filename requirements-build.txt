@@ -1,0 +1,4 @@
+# Only needed to build the standalone executable (packaging/build.py), not to run the app.
+-r requirements.txt
+pyinstaller>=6.10
+pillow  # lets PyInstaller turn the generated PNG icon into .ico / .icns
